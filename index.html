@@ -11,8 +11,12 @@
     <div class="container">
       <div class="dashboard">
         <div class="logo">
-          <img src="/images/logo-dashboard.png" alt="dashboard logo" />
-          Dashboard
+          <img
+            class="dashboard-logo"
+            src="/images/logo-dashboard.png"
+            alt="dashboard logo"
+          />
+          <h3 class="title">Dashboard</h3>
         </div>
         <div class="home-buttons">
           <div class="home">
@@ -50,47 +54,60 @@
 
       <div class="right">
         <div class="header">
-          <div class="search bar">
+          <div class="search-bar">
             <form action="get">
               <button><img src="/images/search2.png" alt="" /></button>
               <input type="search" id="search-bar" name="search-bar" />
             </form>
           </div>
-          <div class="notification">
-            <img src="/images/notification.png" alt="notification bell" />
-          </div>
           <div class="user-image">
+            <img src="/images/notification1.png" alt="notification bell" />
             <img src="/images/profile-image.svg" alt="" />
+            <div class="user-name">Morgan Oakley</div>
           </div>
-          <div class="user-name">Morgan Oakley</div>
+
           <!--divider between rows-->
-          <div class="user-image">Picture</div>
-          <div class="welcome-message">Hi there,</div>
-          <div class="user-name">Morgan Oakley (@mig)</div>
-          <button class="new-button">New</button>
-          <button class="upload-button">Upload</button>
-          <button class="share-button">Share</button>
+          <div class="welcome-message">
+            <div class="user-image">
+              <img
+                src="/images/profile-image.svg"
+                alt="profile image"
+                id="image"
+              />
+            </div>
+            <div class="welcome">Hi there,</div>
+            <div class="user-name-profile">Morgan Oakley (@mig)</div>
+          </div>
+          <div class="buttons">
+            <button class="new button">New</button>
+            <button class="upload button">Upload</button>
+            <button class="share button">Share</button>
+          </div>
         </div>
 
         <div class="projects">
           <div class="your-projects">
             <div class="card 1">
-              <h2>Super Cool Project</h2>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Mollitia soluta, repellat, maxime voluptatibus dolor numquam
-                facere veniam earum recusandae aliquam pariatur totam ratione
-                quod. Quae saepe necessitatibus voluptate sapiente tenetur.
-              </p>
+              <div class="content">
+                <h2>Super Cool Project</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Mollitia soluta, repellat, maxime voluptatibus dolor numquam
+                  facere veniam earum recusandae aliquam pariatur totam ratione
+                  quod. Quae saepe necessitatibus voluptate sapiente tenetur.
+                </p>
+              </div>
             </div>
             <div class="card 2">
-              <h2>Super Cool Project</h2>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Mollitia soluta, repellat, maxime voluptatibus dolor numquam
-                facere veniam earum recusandae aliquam pariatur totam ratione
-                quod. Quae saepe necessitatibus voluptate sapiente tenetur.
-              </p>
+              <div class="content">
+                <h2>Super Cool Project</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Mollitia soluta, repellat, maxime voluptatibus dolor numquam
+                  facere veniam earum recusandae aliquam pariatur totam ratione
+                  quod. Quae saepe necessitatibus voluptate sapiente tenetur.
+                </p>
+              </div>
             </div>
             <div class="card 3">
               <h2>Super Cool Project</h2>
@@ -130,34 +147,43 @@
             </div>
           </div>
           <div class="announcements">
-            <div class="announcement1">
+            <div class="announcement">
               <h2>Site Maintenance</h2>
               <p>This is whats going down</p>
             </div>
-            <div class="announcement2"></div>
-            <h2>Updated Privacy Policy</h2>
-            <p>This is whats going down</p>
-            <div class="announcement3">
+            <div class="announcement">
+              <h2>Updated Privacy Policy</h2>
+              <p>This is whats going down</p>
+            </div>
+            <div class="announcement" id="no-border">
               <h2>Community Share Day</h2>
               <p>This is whats going down</p>
             </div>
           </div>
           <div class="trending">
-            <div class="user-pic"></div>
-            <div class="user-name"></div>
-            <div class="topic"></div>
+            <div class="post">
+              <div class="user-pic">pic</div>
+              <div class="user-name">@tegan</div>
+              <div class="topic">World Peace Builder</div>
+            </div>
 
-            <div class="user-pic"></div>
-            <div class="user-name"></div>
-            <div class="topic"></div>
+            <div class="post">
+              <div class="user-pic">pic</div>
+              <div class="user-name">@morgan</div>
+              <div class="topic">Life Changing App</div>
+            </div>
 
-            <div class="user-pic"></div>
-            <div class="user-name"></div>
-            <div class="topic"></div>
+            <div class="post">
+              <div class="user-pic">pic</div>
+              <div class="user-name">@kendall</div>
+              <div class="topic">Super Cool Project</div>
+            </div>
 
-            <div class="user-pic"></div>
-            <div class="user-name"></div>
-            <div class="topic"></div>
+            <div class="post">
+              <div class="user-pic">pic</div>
+              <div class="user-name">@alex</div>
+              <div class="topic">No Traffic Maker</div>
+            </div>
           </div>
         </div>
       </div>
